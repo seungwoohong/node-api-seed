@@ -1,16 +1,8 @@
-/**
- * @fileoverview Server runner
- */
 'use strict';
 
-const express = require('express');
-const app = express();
-const bodyParser = requier('body-parser');
-const fs = require('fs');
+const server = require('./src/server');
+const CONFIG = require('./src/config/server.config');
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-
-app.listen(3000, function() {
-   console.log('App listening on port 3000!!');
+server.listen(CONFIG.port, () => {
+   console.log(`App listening on port ${CONFIG.port}!!`);
 });
