@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.6"
+  },
+  "name": "koa-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "seungwoo Hong"
+}
