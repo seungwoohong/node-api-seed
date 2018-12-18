@@ -4,7 +4,8 @@
   "description": "Rest API seed project with express",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node ."
   },
   "author": "seungwoohong",
   "license": "ISC",
